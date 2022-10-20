@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 st.title('Aplicacion de identificacion de los Simpson')
-
+st.header("Creado por: Luis Rodriguez")
 
 uploaded_file = st.file_uploader("Carga una imagen ...", type=["jpg","jpeg"])
 if uploaded_file is not None:
